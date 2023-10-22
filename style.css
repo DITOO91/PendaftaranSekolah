@@ -1,0 +1,142 @@
+body{
+	background-color: #f9f9f9;
+	font-size: 16px;
+	color: #444;
+	font-family: sans-serif;
+}
+
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+
+header{
+	background-color: cyan;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid cyan;
+	margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;
+}
+
+
+.menu{
+	background-color: #1e90ff;
+	border: 1px solid#f0f0f0;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+div.menu ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+
+div.menu ul li a{
+	float: left;
+	text-transform: uppercase;
+}
+
+div.menu ul li a{
+	display: inline-block;
+	padding: 0 20px;
+	text-decoration: none;
+	color: #2c2c2c;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	transition: all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover
+div.menu ul li a.hoverover{
+	cursor: pointer;
+	color: #fff;
+}
+
+
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+div.isi{
+	text-align: center;
+	padding: 30px 20px;
+}
+.footer{
+	width: 80%;
+	margin: 10px auto;
+}
+footer{
+	background-color: cyan;
+	padding: 8px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+.login{
+	padding: 1em;
+	margin: 2em auto;
+	width: 17em;
+	background: cyan;
+	border-radius: 3px;
+}
+.label{
+	font-size: 12pt;
+	color: #555;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+	padding: 8px;
+	width: 95%;
+	background: #efefef;
+	border: 0;
+	font-size: 10pt;
+	margin: 6px 0px;
+}
+.tombol{
+	background: yellow;
+	color: black;
+	border: 0;
+	padding: 8px 15px;
+}
+
+.tabel{
+	font-family: sans-serif;
+	text-align: left;
+	color: #000000;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid cyan;
+}
+
+.tabel tr th{
+	background: cyan;
+	color: #fff;
+	font-weight: normal;
+}
+
+.tabel th td{
+	padding: 8px 20px;
+	text-align: center;	
+}
+
+.tabel tr: hover{
+	background-color: grey;
+}
+
+.tabel tr: nth-child(even) 
+{
+	background-color: grey;
+
+}
